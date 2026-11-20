@@ -11,7 +11,6 @@ echo       URL SECURITY VERIFICATION
 echo ==========================================
 echo.
 
-:: Verifica a configuracao
 if not exist "%~dp0config.bat" (
     echo ERRO: config.bat nao encontrado.
     echo.
@@ -29,14 +28,12 @@ if not defined VT_API_KEY (
     exit /b 1
 )
 
-:: Verifica o mecanismo PowerShell
 if not exist "%~dp0VT-QuickCheck.ps1" (
     echo ERRO: VT-QuickCheck.ps1 nao encontrado.
     pause
     exit /b 1
 )
 
-:: Disponibiliza a chave para o PowerShell
 set "VT_API_KEY=%VT_API_KEY%"
 
 echo Iniciando verificacao...
