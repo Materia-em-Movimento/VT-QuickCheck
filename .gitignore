@@ -1,0 +1,8 @@
+
+# Credenciais da API
+config.bat
+*.key
+
+# Historico e arquivos temporarios
+*.log
+*.tmp
