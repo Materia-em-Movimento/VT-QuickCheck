@@ -59,6 +59,7 @@ No Python installation or additional libraries required.
 
 **Security notice:** A result with zero malicious detections does not guarantee that a website is safe. VirusTotal aggregates results from multiple security engines, and detection results may change over time.
 
+
 ## Project Structure
 
 ```text
@@ -68,7 +69,8 @@ VT-QuickCheck/
 ├── config.example.bat
 ├── .gitignore
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── preview.png
 ```
 
 The local `config.bat` file is intentionally excluded from the repository.
