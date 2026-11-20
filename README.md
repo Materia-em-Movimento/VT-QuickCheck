@@ -1,4 +1,5 @@
 # VT-QuickCheck
+![VT-QuickCheck Preview](assets/preview.png)
 
 **Windows URL Security Checker using VirusTotal API v3**
 
